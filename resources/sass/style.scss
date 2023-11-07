@@ -1,0 +1,104 @@
+$theme-colors: (
+    'primary': #F00
+);
+
+.w-6 {
+    width: 6% !important;
+}
+
+.w-15 {
+    width: 15% !important;
+}
+
+.w-17 {
+    width: 17%
+}
+
+.w-18 {
+    width: 18%
+}
+
+.w-45 {
+    width: 45%;
+}
+
+.w-59 {
+    width: 59%;
+}
+
+.w-65 {
+    width: 65%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.h-20 {
+    height: 20%;
+}
+
+.h-30 {
+    height: 30%;
+}
+
+.h-60 {
+    height: 60%;
+}
+
+.h-80 {
+    height: 80%;
+}
+
+.h-85 {
+    height: 80%;
+}
+
+.h-95 {
+    height: 95%;
+}
+
+.day .container {
+    background-color: rgb(220, 220, 220);
+}
+
+.opacity-20 {
+    opacity: .2;
+}
+
+.overflow-overlay{
+    overflow: overlay !important;
+}
+
+.turma-a .side-item {
+    width: 82%;
+}
+
+.turma-b .side-item {
+    width: 82%;
+}
+
+.msg-error{
+    height: fit-content;
+    width: 95vw;
+    position: absolute;
+    z-index: 1;
+    margin-left: 2%;
+    margin-right: 2%;
+    opacity: 0.9;
+}
+
+.opcao-uc {
+    max-height: 300px;
+}
+
+.error{
+    width: 98vw;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.2;
+}
+
+@import '~bootstrap/scss/bootstrap';

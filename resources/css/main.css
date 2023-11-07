@@ -1,0 +1,145 @@
+
+/* COMPLEMENTOS EM CSS */
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.navbar {
+    padding: .5rem 5rem;
+}
+
+.navbar a img {
+    height: 40px;
+    border-radius: .25rem;
+}
+
+.pg-ctn {
+    flex: 1;
+}
+
+.pg-ctn form input + button {
+    margin-left: .25rem;
+}
+
+.pg-ctn form button img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.pg-ctn .class-ctn {
+    padding: 1.75rem 0;
+    border-radius: .25rem;
+    background-color: rgb(220, 220, 220);
+}
+
+.pg-ctn .class-ctn * + .class {
+    margin-top: 1.25rem;
+}
+
+.pg-ctn .class-ctn .class {
+    border-radius: .25rem;
+    padding: 0%;
+}
+
+.pg-ctn .class-ctn .class .class-code {
+    border-radius: .25rem 0 0 .25rem;
+    color: #fff;
+}
+
+.pg-ctn .class-ctn .class .class-info {
+    border-radius: 0 .25rem .25rem 0;
+    flex: 1;
+    padding: 0 .5rem;
+}
+
+.pg-ctn div.tab-pane form {
+    padding: 1.75rem 1.75rem;
+} 
+
+
+
+.pg-ctn div .days .day .docente {
+    border-radius: .5rem;
+    border: 1px solid gray;
+}
+
+.pg-ctn div .days .day .cont{
+    min-height: 20vh;
+    height: fit-content;
+}
+
+.pg-ctn div .days .day .cont .turma-a div .side-item{
+    border: #495057;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.pg-ctn div .days .day .cont .turma-b div .side-item{
+    border: #495057;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.side-ctn {
+    height: 25%;
+}
+
+.pg-ctn div .side div {
+    border-radius: .25rem;
+    background-color: rgb(220, 220, 220);
+}
+
+.pg-ctn div .side div .side-item {
+    border-radius: .5rem;
+    border: 1px solid gray;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+
+.pg-ctn div .side div {
+    border: 1px solid gray;
+}
+.side-item {
+    border-radius: .5rem;
+    border: 1px solid gray;
+}
+
+.modal-content {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.pg-ctn .class-ctn .container .container-turma {
+    background-color: #495057;
+}
+
+.pg-ctn .class-ctn .container .container-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #495057;
+    margin: auto;
+}
+
+.pg-ctn .ctn-act {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.pg-ctn .ctn-act .act {
+    border-radius: .25rem;
+    border: 1px black solid;
+    color: black;
+    text-decoration: none;
+}
+
+.pg-ctn .ctn-act .act:hover {
+    box-shadow: 0 0 15px black;
+    transition: 0.1s;
+}
